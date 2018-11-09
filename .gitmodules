@@ -1,0 +1,15 @@
+[submodule "004"]
+	path = 004
+	url = git@github.com:wanbinkimoon/004-openframeworks-test.git
+[submodule "005"]
+	path = 005
+	url = git@github.com:wanbinkimoon/005-openframeworks-test.git
+[submodule "006"]
+	path = 006
+	url = git@github.com:wanbinkimoon/006-openframeworks-test.git
+[submodule "007"]
+	path = 007
+	url = git@github.com:wanbinkimoon/007-openframeworks-test.git
+[submodule "008"]
+	path = 008
+	url = git@github.com:wanbinkimoon/008-openframeworks-test.git
