@@ -12,7 +12,8 @@
 - **006** –
 - **007** – including custom shaders
 - **008** – emproved grid class
-- **009** – waver sound reactive
+- **009** – waver sine
+- **010** – waver lerping colors
 
 # 📺 008
 
@@ -21,3 +22,7 @@
 # 📺 009
 
 ![](./_images/sample_009.png)
+
+# 📺 010
+
+![](./_images/sample_010.png)
