@@ -9,8 +9,9 @@
 
 //--------------------------------------------------------------
 void Wave::update(int rows){
+  color.clear();
   rowNumb = rows;
-  rowH = (ofGetHeight() + 20) / rows;
+  rowH = (ofGetHeight() + 10) / rows;
   for (unsigned int i = 0; i < rows; i++) {
     WaveVertex vert;
     vert.topLeft = ofVec2f(0, rowH * i);
@@ -23,7 +24,7 @@ void Wave::update(int rows){
 
 //--------------------------------------------------------------
 void Wave::draw(int points, vector <ofColor> stepColors){
-  float waver = ofGetFrameNum() * 0.005;
+  float waver = ofGetFrameNum() * 0.015;
   for (unsigned int i = 0; i < rowNumb; i++) {
     ofColor thisColor = color.steps(stepColors, rowNumb, i);
     ofSetColor(thisColor);

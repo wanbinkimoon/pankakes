@@ -11,6 +11,7 @@
 
 class ColorLerp : public ofBaseApp{
 public:
+  void clear();
   ofColor steps(vector <ofColor> stepColors, int steps, int actual);
   vector <ofColor> colors;
 };

@@ -6,15 +6,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/colorLerp.cpp"
-            timestampString = "563851915.839689"
+            timestampString = "563854387.697176"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "ColorLerp::steps(vector &lt;ofColor&gt; stepColors, int steps, int actual)"
             landmarkType = "7">
          </BreakpointContent>
@@ -22,15 +22,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "2"
             continueAfterRunningActions = "No"
             filePath = "src/colorLerp.cpp"
-            timestampString = "563851915.840083"
+            timestampString = "563854387.6975"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "ColorLerp::steps(vector &lt;ofColor&gt; stepColors, int steps, int actual)"
             landmarkType = "7">
             <Actions>
@@ -48,14 +48,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             shouldBeEnabled = "No"
-            ignoreCount = "0"
+            ignoreCount = "2"
             continueAfterRunningActions = "No"
             filePath = "src/colorLerp.cpp"
-            timestampString = "563851915.840497"
+            timestampString = "563854387.697567"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "ColorLerp::steps(vector &lt;ofColor&gt; stepColors, int steps, int actual)"
             landmarkType = "7">
          </BreakpointContent>
@@ -63,16 +63,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "src/colorLerp.cpp"
-            timestampString = "563851915.840796"
+            timestampString = "563854387.697619"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "ColorLerp::steps(vector &lt;ofColor&gt; stepColors, int steps, int actual)"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ColorLerp::clear()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

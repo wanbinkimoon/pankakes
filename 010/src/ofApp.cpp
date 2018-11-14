@@ -3,21 +3,21 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
   ofBackground(0);
-//  shader.load("shader_1/shader");
-  
-//  stepColors.push_back(ofColor(255, 150, 200));
-//  stepColors.push_back(ofColor(0, 255, 242));
-//  stepColors.push_back(ofColor(0, 255, 100));
-//  stepColors.push_back(ofColor(255, 250, 0));
+  ofColor color1 = ofColor(38, 70, 83);
+  stepColors.push_back(color1);
+  ofColor color2 = ofColor(42, 157, 143);
+  stepColors.push_back(color2);
+  ofColor color3 = ofColor(233, 196, 106);
+  stepColors.push_back(color3);
+  ofColor color4 = ofColor(244, 162, 97);
+  stepColors.push_back(color4);
+  ofColor color5 = ofColor(231, 11, 81);
+  stepColors.push_back(color5);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-  wave.update(4);
-  stepColors.push_back(ofColor(255, 150, 200));
-  stepColors.push_back(ofColor(0, 255, 242));
-  stepColors.push_back(ofColor(0, 255, 100));
-  stepColors.push_back(ofColor(255, 250, 0));
+  wave.update(20);
 }
 
 //--------------------------------------------------------------
@@ -26,7 +26,7 @@ void ofApp::draw(){
 //  shader.end();
   ofSetColor(255, 125, 100);
   
-  wave.draw(10, stepColors);
+  wave.draw(20, stepColors);
 }
 
 //--------------------------------------------------------------
