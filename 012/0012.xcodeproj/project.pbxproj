@@ -1018,13 +1018,13 @@
 			isa = PBXGroup;
 			children = (
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				9A29CDE4219FA47A00E72FC7 /* barretta.cpp */,
 				9A29CDE6219FA47A00E72FC7 /* barretta.hpp */,
 				9A29CDE3219FA47A00E72FC7 /* cell.h */,
 				9A29CDE7219FA47A00E72FC7 /* grigliata.cpp */,
 				9A29CDE5219FA47A00E72FC7 /* grigliata.hpp */,
-				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;

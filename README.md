@@ -14,6 +14,8 @@
 - **008** – emproved grid class
 - **009** – waver sine
 - **010** – waver lerping colors
+- **011** –
+- **012** – added noise shader
 
 # 📺 008
 
@@ -26,3 +28,7 @@
 # 📺 010
 
 ![](./_images/sample_010.png)
+
+# 📺 012
+
+![](./_images/sample_012.png)

@@ -39,4 +39,5 @@ class ofApp : public ofBaseApp{
     Constants consts;
     Grid grid;
     BarrettaClass bar;
+    ofShader shader;
 };
