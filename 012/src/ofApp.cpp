@@ -18,6 +18,12 @@ void ofApp::setup(){
   
   // loading shader from data folder
   bar.shader.load("shader_1/shader");
+  
+//  bar.shader.setUniform4f("color", 200.0, 155.0, 100.0, 255.0);
+//  bar.shader.setUniform2f("center", ofGetWidth() / 2, ofGetHeight() / 2);
+//  bar.shader.setUniform1f("radius", ofGetHeight() / 2);
+//  bar.shader.setUniform1f("expand", 0.25f);
+//  bar.shader.setUniform1f("windowHeight", ofGetHeight());
 }
 
 //--------------------------------------------------------------
@@ -34,17 +40,10 @@ void ofApp::update(){
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-//  shader.begin();
-//  shader.end();
-  ofSetColor(ofColor::cyan);
-  
   float xpos = ofGetWidth() *.5;
   float ypos = ofGetHeight() - ofGetHeight() * rms_r;
   float radius = 5 + 100 * rms_l;
-
-//  ofDrawCircle(xpos, ypos, radius);
   grid.draw(grid.cell, [&]{bar.draw();}, rms_l);
-
 }
 //--------------------------------------------------------------
 void ofApp::audioIn(ofSoundBuffer &inBuffer){
