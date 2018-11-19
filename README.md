@@ -16,6 +16,7 @@
 - **010** – waver lerping colors
 - **011** –
 - **012** – added noise shader
+- **013** – sound reactive shader
 
 # 📺 008
 
@@ -32,3 +33,7 @@
 # 📺 012
 
 ![](./_images/sample_012.png)
+
+# 📺 013
+
+![](./_images/sample_013.png)
