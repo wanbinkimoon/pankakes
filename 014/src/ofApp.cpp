@@ -52,20 +52,21 @@ void ofApp::draw(){
   ofDrawRectangle(0, 0, ofGetWidth(), ofGetHeight());
   shader.end();
 
-  shader.begin();
+  
   for (int i = 0; i < melBands.size(); i += 2){
-    
+    shader.begin();
     shader.setUniform1f("u_time", ofGetElapsedTimef() * - 1);
     shader.setUniform2f("u_resolution", ofGetWidth(), ofGetHeight());
-    shader.setUniform1f("u_sound", rms_l * - (0.2 * i));
+    shader.setUniform1f("u_sound", rms_l * - (2.2 * i));
     
     float scaledValue = ofMap(melBands[i], DB_MIN, DB_MAX, 0.0, 1.0, true);
     float radius = ((scaledValue * 100) - ((melBands.size() - i) * 20));
     
     ofSetCircleResolution(rms_r * 100);
     ofDrawCircle(ofGetWidth() / 2, ofGetHeight() / 2, radius);
+    shader.end();
   }
-  shader.end();
+  
   ofSetColor(255);
 //  grid.draw(grid.cell, [&]{bar.draw();}, rms_l);
 }
